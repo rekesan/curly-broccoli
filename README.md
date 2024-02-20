@@ -1,10 +1,7 @@
 # curly-broccoli
-
-
 Johnrey Vargas Luntayao
-Carl Justine MendozaMart Anthony A. # curly-broccoli
+Mart Anthony A. Salazar
 Leandro Perez
-
 Jocelyn Necio
-
 Jeffrey Echano
+Carl justine Mendoza
