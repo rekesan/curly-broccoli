@@ -1,11 +1,13 @@
 import { books } from "./books_data.js";
+import { getMostLikedVideos } from "./get-most-liked-videos.js";
+import { getMostViewedVideos } from "./get-most-viewed-videos.js";
 import { youtubeVideos } from "./youtube_data.js";
 
 // get all titles of most liked videos.
 const mostLikedVideos = getMostLikedVideos(youtubeVideos);
 
-// get all titles of most disliked videos.
-const mostDislikedVideos = getMostDislikedVideos(youtubeVideos);
+// get all titles of most viewed videos.
+const mostViewedVideos = getMostViewedVideos(youtubeVideos);
 
 // get all titles of books that is below $10 dollars.
 const affordableBooks = getAffordableBooks(books);
