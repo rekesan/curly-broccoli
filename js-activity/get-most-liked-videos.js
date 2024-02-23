@@ -1,5 +1,3 @@
-import { youtubeVideos } from "./youtube_data.js";
-
 // get 5 most liked videos
 export const getMostLikedVideos = (youtubeVideos) =>
   youtubeVideos
@@ -10,4 +8,3 @@ export const getMostLikedVideos = (youtubeVideos) =>
     )
     .slice(0, 5)
     .map((video) => video.title);
-console.log(getMostLikedVideos(youtubeVideos));
