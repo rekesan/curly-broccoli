@@ -1,0 +1,11 @@
+{
+  "name": "curly-broccoli",
+  "version": "1.0.0",
+  "description": "Internship 2024",
+  "type": "module",
+  "scripts": {
+    "main": "node js-activity/main.js"
+  },
+  "author": "RedKean",
+  "license": "ISC"
+}

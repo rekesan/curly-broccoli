@@ -1,6 +1,5 @@
-import { books } from "./books_data";
-import { youtubeVideos } from "./youtube_data";
-
+import { books } from "./books_data.js";
+import { youtubeVideos } from "./youtube_data.js";
 
 // get all titles of most liked videos.
 const mostLikedVideos = getMostLikedVideos(youtubeVideos);
