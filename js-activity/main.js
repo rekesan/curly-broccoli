@@ -1,4 +1,5 @@
 import { books } from "./books_data.js";
+import getTotalValueOfBooks from "./get-Total-Value-Of-Books.js";
 import { getMostLikedVideos } from "./get-most-liked-videos.js";
 import { getMostViewedVideos } from "./get-most-viewed-videos.js";
 import { youtubeVideos } from "./youtube_data.js";
