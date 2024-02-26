@@ -1,7 +1,5 @@
-import { books } from "./books_data.js";
-
 const getTotalValueOfBooks = (books) => {
-  const totalPrice = books.reduce((previous, book) => book.price + previous, 0);
+  const totalPrice = books.reduce((priceAcc, book) => book.price + priceAcc, 0);
   return totalPrice;
 };
 export default getTotalValueOfBooks;
