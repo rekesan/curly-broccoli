@@ -3,13 +3,11 @@
     let genreCount = {};
     
     books.forEach(book => {
-      genreCount[book.genre] = (genreCount[book.genre] || 0) + 1;
+      genreCount[book.genre] = (genreCount[book.genre] || 0);
     });
     
     return genreCount;
   }
-
-  console.log(getNumberOfBooksByGenre(books));
   
 
 
