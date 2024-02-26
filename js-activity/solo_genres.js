@@ -4,5 +4,7 @@ export function getSoleRepresentative(books){
         return bookGenres.indexOf(genre) === index && bookGenres.lastIndexOf(genre) === index;
     })
 
-    return soloGenres;
+    const soloBooks = books.filter(book => soloGenres.includes(book.genre));
+    return soloBooks;
 }
+
