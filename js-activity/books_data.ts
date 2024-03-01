@@ -1,4 +1,4 @@
-export const books: BooksArray[] = [
+export const books: Books[] = [
   { title: "The Hobbit", author: "J.R.R. Tolkien", year: 1937, genre: "Fantasy", price: 10.99 },
   { title: "Harry Potter and the Philosopher's Stone", author: "J.K. Rowling", year: 1997, genre: "Fantasy", price: 9.99 },
   { title: "1984", author: "George Orwell", year: 1949, genre: "Dystopian", price: 8.99 },
@@ -10,7 +10,7 @@ export const books: BooksArray[] = [
   { title: "The Catcher in the Rye", author: "J.D. Salinger", year: 1951, genre: "Fiction", price: 9.49 }
 ];
 
-interface BooksArray {
+interface Books {
   title: string, 
   author: string, 
   year: number, 
