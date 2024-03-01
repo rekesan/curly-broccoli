@@ -1,4 +1,12 @@
-export const books = [
+export interface Book {
+  title: string; 
+  author: string; 
+  year: number; 
+  genre: string; 
+  price: number
+};
+
+export const books:Book[] = [
   { title: "The Hobbit", author: "J.R.R. Tolkien", year: 1937, genre: "Fantasy", price: 10.99 },
   { title: "Harry Potter and the Philosopher's Stone", author: "J.K. Rowling", year: 1997, genre: "Fantasy", price: 9.99 },
   { title: "1984", author: "George Orwell", year: 1949, genre: "Dystopian", price: 8.99 },
