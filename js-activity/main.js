@@ -28,3 +28,4 @@ const totalInventoryValue = getTotalValueOfBooks(books);
 
 // returns the solo representative of a genre
 const soleBooksGenreRepresentative = getSoleRepresentative(books);
+
