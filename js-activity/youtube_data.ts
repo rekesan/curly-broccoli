@@ -1,4 +1,14 @@
-export const youtubeVideos = [
+export interface YoutubeVideo {
+  title: string,
+  description: string,
+  channel: string
+  publishDate: string
+  views: string
+  likes: string
+  comments: string
+}
+
+export const youtubeVideos: Array<YoutubeVideo> = [
   {
     title: "Exploring the Future of Technology",
     description: "An insightful exploration of science and technology topics.",
