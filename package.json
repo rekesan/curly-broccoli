@@ -7,5 +7,8 @@
     "main": "node js-activity/main.js"
   },
   "author": "RedKean",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
 }
