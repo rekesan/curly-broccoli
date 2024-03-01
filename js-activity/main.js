@@ -3,6 +3,8 @@ import getTotalValueOfBooks from "./get-Total-Value-Of-Books.js";
 import { getMostLikedVideos } from "./get-most-liked-videos.js";
 import { getMostViewedVideos } from "./get-most-viewed-videos.js";
 import { youtubeVideos } from "./youtube_data.js";
+import { getSoleRepresentative } from "./solo_genres"; 
+import { getNumberOfBooksByGenre } from "./get-number-of-books-by-genre.js";
 import { applyDiscountPriceOfBooks } from "./discounted-books.js";
 import getAffordableBooks from "./affordable-books.js";
 
